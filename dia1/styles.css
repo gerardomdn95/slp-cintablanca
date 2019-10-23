@@ -1,0 +1,28 @@
+main {
+    background: blueviolet;
+    height: 300px;
+    border: solid black 3px;
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+img {
+    height: 150px;
+}
+
+input {
+    width: 355px;
+    border-radius: 10px;
+}
+
+section {
+    background: orange;
+    border: solid black 3px;
+    padding-left: 300px;
+}
+
+button {
+    width: 180px;
+    border-radius: 10px;
+}
