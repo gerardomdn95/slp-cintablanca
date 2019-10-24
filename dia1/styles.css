@@ -1,7 +1,5 @@
 main {
-    background: blueviolet;
     height: 300px;
-    border: solid black 3px;
     padding-top: 200px;
     padding-left: 200px;
     padding-right: 200px;
@@ -17,12 +15,30 @@ input {
 }
 
 section {
-    background: orange;
-    border: solid black 3px;
     padding-left: 300px;
 }
 
 button {
     width: 180px;
     border-radius: 10px;
+}
+
+/* ID elementos únicos */
+
+#buscar {
+    background: blue;
+}
+
+#suerte {
+    background: green;
+}
+
+/* Class */
+
+.impar {
+    color: red;
+}
+
+.par {
+    color: pink;
 }
