@@ -1,0 +1,99 @@
+#mexico {
+    height: 400px;
+    width: 700px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+}
+
+.m-section {
+    width: 233.33px;
+    height: 400px;
+}
+
+#green {
+    background: #006341;
+}
+
+#red {
+    background: #CE1126;
+}
+
+#white {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#badge {
+    width: 180px;
+}
+
+/* Noruega */
+
+#norway {
+    height: 400px;
+    width: 700px;
+    background: #002868;
+    margin-top: 25px;
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.n-section{
+    height: 180px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.square {
+    height: 180px;
+    width: 180px;
+    background: white;
+    border: solid 1px black;
+}
+
+.rectangle {
+    height: 180px;
+    width: 470px;
+    background: white;
+}
+
+.small-square {
+    height: 150px;
+    width: 150px;
+    background: #EF2B2D;
+}
+
+.small-rectangle {
+    height: 150px;
+    width: 440px;
+    background: #EF2B2D;
+}
+
+#first {
+
+}
+
+#second {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#third {
+    display: flex;
+    align-items: flex-end;
+}
+
+#fourth {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
