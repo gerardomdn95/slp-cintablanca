@@ -1,0 +1,9 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.is-red {
+    color: red;
+    background: blue;
+    text-align: center;
+}
