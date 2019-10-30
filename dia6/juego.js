@@ -42,10 +42,7 @@ function game(p1, p2) {
 }
 
 function test() {
-    alert("Función test ejecutada");
-
     let input = document.getElementById("input");
-    console.log(input.value);
     let prueba = document.getElementById("prueba");
     prueba.innerHTML = input.value;
     prueba.classList.add("is-red");
