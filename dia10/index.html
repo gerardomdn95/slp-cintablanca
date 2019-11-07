@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col m6">
+                <div class="card">
+                    <input type="text">
+                    <button onclick="success()">Success</button>
+                    <button onclick="error()">Error</button>
+                </div>
+            </div>
+            <div class="col m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img id="pokeImage" src="">
+                        <span id="pokeName" class="card-title black"></span>
+                    </div>
+                    <div class="card-content">
+                        <h5 id="pokeType"></h5>
+                        <p id="pokeHeight"></p>
+                    </div>
+                    <div class="card-action">
+                        <button onclick="pokemon.saludo()" class="waves-effect waves-light btn">button</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
