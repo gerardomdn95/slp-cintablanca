@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>PokeApi</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper red darken-1">
+            <div class="container">
+                <a href="#" class="brand-logo">PokeApi</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col m6 s12">
+                <div class="card">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">adb</i>
+                                        <input onkeypress="onEnter(event)" id="pokeInput" placeholder="Busca tu Pokémon" type="text" class="validate">
+                                    </div>
+                                    <div class="col s6" style="display: flex; justify-content: flex-end; width: 100%;">
+                                        <button onclick="search()" class="btn waves-effect waves-light" name="action">Buscar
+                                            <i class="material-icons right">send</i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col m6 s12">
+                <div class="row">
+                    <div class="col s12 m7">
+                        <div class="card">
+                            <div class="card-image">
+                                <img id="pokeImage" src="https://external-preview.redd.it/e5zoQw-hgw-LCjdhC_4G8IAcHxex5pzda_BD_FPTcBY.png?width=960&crop=smart&auto=webp&s=23f9df250a8fe74763c3ba7cb8e46421e63cba2d">
+                            </div>
+                            <div class="card-content">
+                                <h4 id="pokeName">Pokémon</h4>
+                                <ol>
+                                    <li id="pokeMove1"></li>
+                                    <li id="pokeMove2"></li>
+                                    <li id="pokeMove3"></li>
+                                    <li id="pokeMove4"></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="success()" class="btn waves-effect waves-light green" name="action">Success</button>
+    <button onclick="error()" class="btn waves-effect waves-light red" name="action">Error</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="./scripts/script.js"></script>
+
+</body>
+
+</html>
