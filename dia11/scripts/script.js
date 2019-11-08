@@ -12,12 +12,12 @@
 // Clases
 class Pokemon {
     constructor(name, image, move1, move2, move3, move4) {
-        this.name = name;
+        this.name = name.charAt(0).toUpperCase() + name.slice(1);
         this.image = image;
-        this.move1 = move1;
-        this.move2 = move2;
-        this.move3 = move3;
-        this.move4 = move4;
+        this.move1 = move1.charAt(0).toUpperCase() + move1.slice(1);
+        this.move2 = move2.charAt(0).toUpperCase() + move2.slice(1);
+        this.move3 = move3.charAt(0).toUpperCase() + move3.slice(1);
+        this.move4 = move4.charAt(0).toUpperCase() + move4.slice(1);
     }    
 }
 
@@ -46,7 +46,6 @@ let search = () => {
                             pokeInfo.moves[2].move.name,
                             pokeInfo.moves[3].move.name);
                         console.log(pokemon);
-                        // Reemplazar ID
                         document.getElementById("pokeImage").src = pokemon.image;
                         document.getElementById("pokeName").innerHTML = pokemon.name;
                         document.getElementById("pokeMove1").innerHTML = pokemon.move1;
